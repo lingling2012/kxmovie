@@ -126,7 +126,8 @@
                         [ext isEqualToString:@"mpeg"]||
                         [ext isEqualToString:@"mpg"] ||
                         [ext isEqualToString:@"flv"] ||
-                        [ext isEqualToString:@"vob"]) {
+                        [ext isEqualToString:@"vob"] ||
+                        [ext isEqualToString:@"rmvb"]) {
                         
                         [ma addObject:path];
                     }
